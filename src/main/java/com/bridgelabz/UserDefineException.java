@@ -1,8 +1,8 @@
 package com.bridgelabz;
 
 public class UserDefineException extends Throwable {
-    public boolean errorMessage;
-
-    public UserDefineException(String s) {
+    String  errorMessage;
+    public  UserDefineException(String message) {
+        this.errorMessage = message;
     }
 }
